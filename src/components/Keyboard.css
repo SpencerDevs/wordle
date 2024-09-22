@@ -1,0 +1,10 @@
+.keyboard {
+    margin-top: 20px;
+  }
+  
+  .keyboard-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
