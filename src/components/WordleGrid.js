@@ -5,7 +5,7 @@ function WordleGrid({ guesses, solution, currentGuess }) {
   const grid = [];
 
   for (let i = 0; i < 6; i++) {
-    const row = guesses[i] || (i === guesses.length ? currentGuess.padEnd(5, ' ') : ' '.repeat(5));
+    const row = guesses[i] || (i === guesses.length ? currentGuess.padEnd(5, ' ') : '');
     grid.push(row.split(''));
   }
 
